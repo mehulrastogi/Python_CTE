@@ -1,4 +1,5 @@
-a=raw_input("Enter a String:")
+a=raw_input("Enter a String:").lower()
+a=a.replace(" ","")
 
 freq={}
 
